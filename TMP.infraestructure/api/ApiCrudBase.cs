@@ -12,7 +12,7 @@ namespace TMP.infraestructure.api
 
         public ApiCrudBase()
         {
-            _apiKey = "sk-B8jK80krZMAMtZevwZ42T2g9IKimoAq4S5EpzghdaUT3BlbkFJJgDCadEuvsTjbMGgOvXrosfZlwMAgcP6odskwsDhEA";
+            _apiKey = "ke";
         }
         public async Task<ApiResponse> Post(string url, StringContent? content)
         {
